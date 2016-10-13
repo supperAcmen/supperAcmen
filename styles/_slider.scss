@@ -1,0 +1,11 @@
+$buttonBg:red;
+
+.swiper-container{
+	.swiper-wraper{
+		.swiper-slide{
+			button{
+				background:$buttonBg;
+			}
+		}
+	}
+}
