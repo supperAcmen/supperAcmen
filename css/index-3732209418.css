@@ -970,12 +970,14 @@ body, html {
   -webkit-box-align: center;
   -ms-flex-align: center;
   -webkit-align-items: center;
-  align-items: center;
-  background: url(../images/yu.jpg) no-repeat top left;
-  color: red; }
+  align-items: center; }
 
-#nr {
-  color: red; }
+#content {
+  background-image: url(../images/yu.jpg) no-repeat top left;
+  background-color: blue; }
+
+#content2 {
+  background-image: url(../images/yu.jpg) no-repeat top left; }
 
 .swiper-container .swiper-wraper .swiper-slide button {
   background: red; }

@@ -106,6 +106,18 @@
 	  } 
 	  })      
 
+
+	// $("#footer div").tap(function(){
+	// 	var data=$(this).attr('class');
+	// 	$.post('/api/'+ data,{},function(response){
+	// 		var html = "";
+	// 		for(var i=0;i<response.length;i++){
+	// 			html +="<li>" + response[i].category + "</li>"
+	// 		}
+	// 		$("#scroller ul").html(html);
+	// 	})
+	// })
+
 	$('#footer div').on("tap",function(){
 		var data=$(this).attr('id');
 		$.post(

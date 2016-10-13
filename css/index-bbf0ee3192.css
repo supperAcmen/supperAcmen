@@ -971,8 +971,7 @@ body, html {
   -ms-flex-align: center;
   -webkit-align-items: center;
   align-items: center;
-  background: url(../images/yu.jpg) no-repeat top left;
-  color: red; }
+  background: url(../images/yu.jpg) no-repeat top left; }
 
 #nr {
   color: red; }

@@ -106,6 +106,26 @@
 	  } 
 	  })      
 
+
+	// $("#footer div").tap(function(){
+	// 	var data=$(this).attr('class');
+	// 	$.post('/api/'+ data,{},function(response){
+	// 		var html = "";
+	// 		for(var i=0;i<response.length;i++){
+	// 			html +="<li>" + response[i].category + "</li>"
+	// 		}
+	// 		$("#scroller ul").html(html);
+	// 	})
+	// })
+	 var mySwiper = new Swiper ('.swiper-container', {
+	  onInit: function(swiper){ //Swiper2.x的初始化是onFirstInit
+	    swiperAnimateCache(swiper); //隐藏动画元素 
+	    swiperAnimate(swiper); //初始化完成开始动画
+	  }, 
+	  onSlideChangeEnd: function(swiper){ 
+	    swiperAnimate(swiper); //每个slide切换结束时也运行当前slide动画
+	  } 
+	  })        
 	$('#footer div').on("tap",function(){
 		var data=$(this).attr('id');
 		$.post(
@@ -4402,7 +4422,6 @@
 		swiperAnimate: swiperAnimate,
 		clearSwiperAnimate: clearSwiperAnimate
 	}
-
 
 /***/ }
 /******/ ]);
