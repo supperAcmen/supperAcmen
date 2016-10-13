@@ -94,7 +94,7 @@
 
 
 	var mySwiper = new Swiper ('.swiper-container', {
-		// effect:'cube',
+		effect:'cube',
 		 pagination: '.swiper-pagination',
 	        paginationType: 'progress',
 	  onInit: function(swiper){ //Swiper2.x的初始化是onFirstInit
