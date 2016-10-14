@@ -3025,6 +3025,8 @@ body, html {
   bottom: 30px;
   border: none;
   background-color: #666;
+  width: 80px;
+  height: 50px;
   font-size: 16px;
   line-height: 40px;
   border-radius: 30%; }
